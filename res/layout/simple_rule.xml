@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.irbis.smsinterceptor.view.detailed.SimpleRuleView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.irbis.smsinterceptor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/simpleRuleName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/rule_content_padding_text"
+        android:inputType="text" >
+
+        <requestFocus android:layout_width="wrap_content" />
+
+    </EditText>
+
+    <Button
+        android:id="@+id/simpleRuleConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/rule_actions_confirm" />
+
+    <ListView
+        android:id="@+id/simpleRuleActionList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/simpleRuleConfirm"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/simpleRuleActionsLabel"
+        android:padding="3dp" >
+
+    </ListView>
+
+    <EditText
+        android:id="@+id/simpleRulePhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/simpleRuleName"
+        android:ems="10"
+        android:hint="@string/rule_phone_padding_text"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/simpleRuleActionsLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/SimpleRuleContent"
+        android:gravity="center_horizontal"
+        android:padding="3dp"
+        android:text="@string/rule_actions_label"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/SimpleRuleContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/simpleRulePhoneNumber"
+        android:ems="10"
+        android:hint="@string/rule_content_padding_text"
+        android:inputType="text" />
+
+</com.irbis.smsinterceptor.view.detailed.SimpleRuleView>

@@ -1,0 +1,9 @@
+assets
+annot.txt
+bin
+gen
+libs
+.classpath
+.project
+proguard.cfg
+project.properties

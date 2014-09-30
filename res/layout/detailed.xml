@@ -1,0 +1,6 @@
+<com.irbis.smsinterceptor.view.detailed.DetailedView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detailedFragmentContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+</com.irbis.smsinterceptor.view.detailed.DetailedView>

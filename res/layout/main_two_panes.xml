@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.irbis.smsinterceptor.view.main.MainView     
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.irbis.smsinterceptor"        
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:baselineAligned="false" 
+    android:orientation="horizontal">
+    <android.support.v4.view.ViewPager
+     android:id="@+id/pager"
+     android:layout_width="0dp"
+     android:layout_height="fill_parent"
+     android:layout_weight="1">
+       <android.support.v4.view.PagerTabStrip
+         android:id="@+id/pagerTabStrip"
+         android:layout_width="match_parent"         
+         android:layout_height="wrap_content"
+         android:layout_gravity="top">
+        </android.support.v4.view.PagerTabStrip> 
+    </android.support.v4.view.ViewPager>
+    <FrameLayout
+        android:id="@+id/detailedFragmentContainer"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+    </FrameLayout>
+</com.irbis.smsinterceptor.view.main.MainView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.irbis.smsinterceptor.view.main.RulesListItemView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.irbis.smsinterceptor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/rulesItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/string_holder"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <CheckBox
+        android:id="@+id/rulesItemEnabled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" 
+        android:focusable="false"/>
+
+    <TextView
+        android:id="@+id/rulesItemCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/rulesItemCountLabel"
+        android:layout_alignBottom="@+id/rulesItemCountLabel"
+        android:layout_toRightOf="@+id/rulesItemCountLabel"
+        android:text="@string/number_holder"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/rulesItemCountLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rulesItemName"
+        android:text="@string/rules_catched_count"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</com.irbis.smsinterceptor.view.main.RulesListItemView>

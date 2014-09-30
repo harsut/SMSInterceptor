@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">SMSInterceptorActivity</string>
+    <string name="set_button_text">SET</string>
+    <string name="get_button_text">GET</string>
+    
+    
+    <string name="app_name">SMSInterceptor</string>
+    
+    <string name="number_holder">13</string>
+    <string name="string_holder">some_string</string>
+    <string name="text_holder">text text text text text text text text text text text text text text text</string>
+    <string name="date_time_holder">16.10.2009</string>  
+    
+    
+    <string name="settings_tab_name">Settings</string>
+    <string name="rules_tab_name">Rules</string>
+    <string name="rules_catched_count">Messages catched:</string>
+        
+    <string name="rule_name_padding_text">Rule name</string>
+    <string name="rule_phone_padding_text">spam sender</string>
+    <string name="rule_content_padding_text">sms message text</string>
+    <string name="rule_actions_label">Actions</string>
+    <string name="rule_actions_confirm">Confirm</string>
+    
+    
+    <string name="archive_tab_name">Archive</string>    
+    <string name="archive_element_group_number">groupNumber</string>
+    <string name="archive_element_total">total: </string>
+    <string name="archive_element_new">new: </string>
+    
+    
+    
+    
+    
+    
+    
+
+</resources>

@@ -1,0 +1,36 @@
+<com.irbis.smsinterceptor.view.detailed.HistoryListItemView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.irbis.smsinterceptor"
+    android:id="@+id/history_item_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+    <TextView
+        android:id="@+id/history_item_datetime_stamp"
+        style="@style/date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/date_time_holder" />
+
+    <TextView
+        android:id="@+id/history_item_phone_number"
+        style="@style/name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/string_holder" />
+
+    <TextView
+        android:id="@+id/history_item_sms_text"
+        style="@style/date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/history_item_phone_number"
+        android:text="@string/text_holder" />
+
+</com.irbis.smsinterceptor.view.detailed.HistoryListItemView>

@@ -1,0 +1,55 @@
+<com.irbis.smsinterceptor.view.main.ArchiveListItemView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.irbis.smsinterceptor"
+    android:id="@+id/archive_item_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+    <TextView
+        android:id="@+id/archive_item_new"
+        style="@style/date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/number_holder" />
+
+    <TextView
+        android:id="@+id/archive_item_new_label"
+        style="@style/date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/archive_item_new"
+        android:text="@string/archive_element_new" />
+
+    <TextView
+        android:id="@+id/archive_item_total"
+        style="@style/date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/archive_item_new_label"
+        android:text="@string/number_holder" />
+
+    <TextView
+        android:id="@+id/archive_item_total_label"
+        style="@style/date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/archive_item_total"
+        android:layout_alignBottom="@+id/archive_item_total"
+        android:layout_toLeftOf="@+id/archive_item_total"
+        android:text="@string/archive_element_total" />
+
+    <TextView
+        android:id="@+id/archive_item_sender"
+        style="@style/name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/archive_element_group_number" />
+
+</com.irbis.smsinterceptor.view.main.ArchiveListItemView>
