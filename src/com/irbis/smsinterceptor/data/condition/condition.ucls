@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true">  
-  <class id="1" language="java" name="com.irbis.smsinterceptor.data.condition.SenderConditionStrategy" 
-    project="SMSInterceptor" 
-    file="/SMSInterceptor/src/com/irbis/smsinterceptor/data/condition/SenderConditionStrategy.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="165" y="1079"/>    
+  <class id="1" language="java" name="com.irbis.smsinterceptor.data.condition.OrConditionStrategy" 
+    project="SMSInterceptor" file="/SMSInterceptor/src/com/irbis/smsinterceptor/data/condition/OrConditionStrategy.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="433" y="787"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="com.irbis.smsinterceptor.data.condition.ContentConditionStrategy" 
+  <class id="2" language="java" name="com.irbis.smsinterceptor.data.condition.SimpleConditionStrategy" 
     project="SMSInterceptor" 
-    file="/SMSInterceptor/src/com/irbis/smsinterceptor/data/condition/ContentConditionStrategy.java" binary="false" 
+    file="/SMSInterceptor/src/com/irbis/smsinterceptor/data/condition/SimpleConditionStrategy.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1352" y="1046"/>    
+    <position height="-1" width="-1" x="1043" y="554"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
@@ -27,65 +26,122 @@
     project="SMSInterceptor" 
     file="/SMSInterceptor/src/com/irbis/smsinterceptor/data/condition/CompositeConditionStrategy.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="665" y="610"/>    
+    <position height="-1" width="-1" x="575" y="561"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="com.irbis.smsinterceptor.data.condition.Condition" project="SMSInterceptor" 
+  <class id="4" language="java" name="com.irbis.smsinterceptor.data.condition.AndConditionStrategy" 
+    project="SMSInterceptor" 
+    file="/SMSInterceptor/src/com/irbis/smsinterceptor/data/condition/AndConditionStrategy.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="731" y="789"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.irbis.smsinterceptor.data.condition.Condition" project="SMSInterceptor" 
     file="/SMSInterceptor/src/com/irbis/smsinterceptor/data/condition/Condition.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="610" y="170"/>    
+    <position height="-1" width="-1" x="118" y="200"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="com.irbis.smsinterceptor.data.condition.ConditionStrategy" 
+  <class id="6" language="java" name="com.irbis.smsinterceptor.data.condition.ConditionStrategy" 
     project="SMSInterceptor" file="/SMSInterceptor/src/com/irbis/smsinterceptor/data/condition/ConditionStrategy.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="613" y="417"/>    
+    <position height="-1" width="-1" x="570" y="122"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
     </display>  
   </class>  
-  <association id="6">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="7" name="mConditionStrategy"/>      
-      <multiplicity id="8" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="5" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="9">    
-    <end type="SOURCE" refId="10" navigable="false">      
-      <attribute id="11" name="mContentConditionStrategy"/>      
+  <class id="7" language="java" name="com.irbis.smsinterceptor.data.condition.SenderConditionStrategy" 
+    project="SMSInterceptor" 
+    file="/SMSInterceptor/src/com/irbis/smsinterceptor/data/condition/SenderConditionStrategy.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="947" y="240"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.irbis.smsinterceptor.data.condition.ContentConditionStrategy" 
+    project="SMSInterceptor" 
+    file="/SMSInterceptor/src/com/irbis/smsinterceptor/data/condition/ContentConditionStrategy.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1292" y="134"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <association id="10">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="11" name="mConditionStrategy"/>      
       <multiplicity id="12" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="2" navigable="true"/>    
+    <end type="TARGET" refId="6" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="13">    
-    <end type="SOURCE" refId="10" navigable="false">      
-      <attribute id="14" name="mSenderConditionStrategy"/>      
-      <multiplicity id="15" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="1" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="16">    
+  <generalization id="13">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="14">    
     <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="17" name="mConditionStrategies"/>      
-      <multiplicity id="18" minimum="0" maximum="2147483647"/>    
+      <attribute id="15" name="mConditionStrategies"/>      
+      <multiplicity id="16" minimum="0" maximum="2147483647"/>    
     </end>    
-    <end type="TARGET" refId="5" navigable="true"/>    
+    <end type="TARGET" refId="6" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
+  <association id="17">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="18" name="mSenderConditionStrategy"/>      
+      <multiplicity id="19" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="20">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="21">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <association id="22">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="23" name="mContentConditionStrategy"/>      
+      <multiplicity id="24" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="25">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="26">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true"/>    

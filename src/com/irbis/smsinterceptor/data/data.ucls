@@ -1,115 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true">  
-  <class id="1" language="java" name="com.irbis.smsinterceptor.data.SmsHistory" project="SMSInterceptor" 
+  <class id="1" language="java" name="com.irbis.smsinterceptor.view.detailed.HistoryListAdapter" 
+    project="SMSInterceptor" file="/SMSInterceptor/src/com/irbis/smsinterceptor/view/detailed/HistoryListAdapter.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="642" y="174"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.irbis.smsinterceptor.view.detailed.HistoryListItemView" 
+    project="SMSInterceptor" file="/SMSInterceptor/src/com/irbis/smsinterceptor/view/detailed/HistoryListItemView.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1088" y="158"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.irbis.smsinterceptor.data.SmsHistory" project="SMSInterceptor" 
     file="/SMSInterceptor/src/com/irbis/smsinterceptor/data/SmsHistory.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="373" y="159"/>    
+    <position height="-1" width="-1" x="657" y="471"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="com.irbis.smsinterceptor.data.SmsMessage" project="SMSInterceptor" 
+  <class id="4" language="java" name="com.irbis.smsinterceptor.data.SmsMessage" project="SMSInterceptor" 
     file="/SMSInterceptor/src/com/irbis/smsinterceptor/data/SmsMessage.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="387" y="590"/>    
+    <position height="-1" width="-1" x="198" y="361"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="com.irbis.smsinterceptor.data_access.DatabaseHelper" project="SMSInterceptor" 
-    file="/SMSInterceptor/src/com/irbis/smsinterceptor/data_access/DatabaseHelper.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="315" width="246" x="1085" y="221"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
-      visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true"/>      
-      <operations public="true" package="true" protected="true" private="true"/>    
-    </display>  
-  </class>  
-  <class id="4" language="java" name="com.irbis.smsinterceptor.data_access.DatabaseOpenHelper" project="SMSInterceptor" 
-    file="/SMSInterceptor/src/com/irbis/smsinterceptor/data_access/DatabaseOpenHelper.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1216" y="752"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
-      visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true"/>      
-      <operations public="true" package="true" protected="true" private="true"/>    
-    </display>  
-  </class>  
-  <interface id="5" language="java" 
-    name="com.irbis.smsinterceptor.data_access.SmsInterceptorSharedPreferences.ISharedPrefsListener" 
-    project="SMSInterceptor" 
-    file="/SMSInterceptor/src/com/irbis/smsinterceptor/data_access/SmsInterceptorSharedPreferences.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="823" y="786"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
-      visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true"/>      
-      <operations public="true" package="true" protected="true" private="true"/>    
-    </display>  
-  </interface>  
-  <class id="6" language="java" name="com.irbis.smsinterceptor.data_access.SmsInterceptorSharedPreferences" 
-    project="SMSInterceptor" 
-    file="/SMSInterceptor/src/com/irbis/smsinterceptor/data_access/SmsInterceptorSharedPreferences.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="888" y="547"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
-      visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true"/>      
-      <operations public="true" package="true" protected="true" private="true"/>    
-    </display>  
-  </class>  
-  <class id="7" language="java" name="com.irbis.smsinterceptor.data_access.SmsMessageDAO" project="SMSInterceptor" 
-    file="/SMSInterceptor/src/com/irbis/smsinterceptor/data_access/SmsMessageDAO.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="117" width="318" x="1147" y="86"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
-      visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true"/>      
-      <operations public="true" package="true" protected="true" private="true"/>    
-    </display>  
-  </class>  
-  <association id="8">    
-    <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="9" name="mSharedPrefsListeners"/>      
-      <multiplicity id="10" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="5" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="11">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="12" name="mSmsMessageDAO"/>      
-      <multiplicity id="13" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="7" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="14">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="15" name="mDatabaseOpenHelper"/>      
-      <multiplicity id="16" minimum="0" maximum="1"/>    
+  <association id="5">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="6" name="mSmsMessages"/>      
+      <multiplicity id="7" minimum="0" maximum="2147483647"/>    
     </end>    
     <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="17">    
-    <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="18" name="mSmsMessageList"/>      
-      <multiplicity id="19" minimum="0" maximum="2147483647"/>    
+  <association id="8">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="9" name="mSmsMessageList"/>      
+      <multiplicity id="10" minimum="0" maximum="2147483647"/>    
     </end>    
-    <end type="TARGET" refId="2" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="20">    
-    <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="21" name="mInstance"/>      
-      <multiplicity id="22" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="6" navigable="true"/>    
+    <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
